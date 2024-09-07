@@ -1,0 +1,106 @@
+/* styles.css */
+html {
+    scroll-behavior: smooth; /* Aplica el desplazamiento suave en toda la página */
+}
+
+header {
+    background-color: #000000;
+    color: #ffdd00;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6d6d6;
+    color: #333;
+    margin: 0;
+    /* padding: 0; */
+    padding-top: 80px; /* Ajusta el padding superior para que el contenido no se esconda detrás del header fijo */
+}
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #ffdd00;
+}
+
+main {
+    padding: 20px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px;
+}
+section h2{
+    padding: 0px 50px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    width: 400px;
+    padding-right: 50px;
+}
+.container p{
+    text-align: justify;
+    padding: 0px 50px;
+    font-size: 1rem;
+}
+
+ul {
+    padding: 0px 64px;
+}
+
+
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    color: #ffdd00;
+    margin: 0;
+}
+footer a {
+    text-decoration: none;
+}
+footer a img{
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 0px 2px 0px 2px;
+}
